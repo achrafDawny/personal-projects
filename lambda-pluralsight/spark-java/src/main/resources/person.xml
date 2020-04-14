@@ -1,0 +1,6 @@
+<persons>
+    <person>
+        <firstname>hello</firstname>
+        <lastname>world</lastname>
+    </person>
+</persons>

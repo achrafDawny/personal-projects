@@ -1,0 +1,7 @@
+public class SparkWordCount
+public static void main String[] args
+sparkConf conf = new
+sparkConf() setMaster local setAppName WordCount
+javaSparkContext javaSparkContext = new JavaSparkContext conf
+javaRDD<String> inputData =
+javaSparkContext textFile path_of_input_file
